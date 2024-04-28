@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-:root{
+:root {
   --primaryClr: #341458;
-  --secondaryClr:#1DEFC5;
+  --secondaryClr: #1defc5;
 }
-body{
-/* min-height: 100vh; */
-/* background-color: var(--primaryClr); */
+body {
+  min-height: 100vh;
+  /* background-color: var(--primaryClr); */
 }
-header{
+header {
   padding: 0px 30px;
   height: 70px;
   display: flex;
@@ -22,10 +22,10 @@ header{
   background-color: #341458f2;
   backdrop-filter: blur(24px);
   color: white;
-  #postal{
+  #postal {
     color: var(--secondaryClr);
   }
-  nav{
+  nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,18 +36,17 @@ header{
 .hero {
   width: 100%;
   height: calc(100vh - 70px);
-  background-color: var(--primaryClr); 
-  background-image: url(https://themewagon.github.io/hotspace/images/city.png); 
+  background-color: var(--primaryClr);
+  background-image: url(https://themewagon.github.io/hotspace/images/city.png);
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  
 }
- .hero .content{
+.hero .content {
   color: white;
   width: 90%;
   max-width: 800px;
@@ -56,54 +55,52 @@ header{
   align-items: center;
   flex-direction: column;
   gap: 20px;
-p{
-  font-size: 12px;
-  line-height: 1.5rem;
-}
-  h1{
+  p {
+    font-size: 12px;
+    line-height: 1.5rem;
+  }
+  h1 {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3.6rem
+    font-size: 3.6rem;
   }
- }
+}
 
- .input-area{
+.input-area {
   display: flex;
   align-items: center;
   gap: 10px;
   width: 90%;
   max-width: 700px;
-
- }
- .inputbox{
+}
+.inputbox {
   display: flex;
   width: 100%;
   background-color: white;
   overflow: hidden;
   border-radius: 10px;
   font-size: 25px;
-
- }
- input,select{
-  font-size: clamp(17px, 4vw , 20px);
- }
- .input{
+}
+input,
+select {
+  font-size: clamp(17px, 4vw, 20px);
+}
+.input {
   padding: 15px;
   width: 100%;
   border: none;
   outline: none;
- }
- select{
+}
+select {
   padding: 15px;
-  background-color: #7836C6;
+  background-color: #7836c6;
   color: white;
   border: none;
   outline: none;
+}
 
- }
-
- button{
+button {
   padding: 15px;
   border-radius: 10px;
   background-color: var(--secondaryClr);
@@ -113,26 +110,201 @@ p{
   justify-content: center;
   align-items: center;
   gap: 10px;
-  font-size: clamp(17px, 4vw , 20px);
+  font-size: clamp(17px, 4vw, 20px);
 
   cursor: pointer;
- }
- button:hover{
+}
+button:hover {
   background-color: white;
- }
+}
 
-.list12{
+.list12 {
   height: 500vh;
   color: red;
   background-color: red;
 }
-.tbl{
+.tbl {
   padding: 20px 10px;
-  background-color: var(--primaryClr);
-  .result{
+  background-color: black;
+  .result {
     color: white;
     padding: 20px 0;
     font-family: "Ubuntu", sans-serif;
+  }
+}
 
+footer {
+  position: sticky;
+  top: 100%;
+  left: 0;
+  background: #20093a;
+  height: auto;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+
+  font-weight: 500;
+
+  text-transform: capitalize;
+
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+
+  margin: 10px auto;
+
+  line-height: 28px;
+
+  font-size: 14px;
+
+  color: #cacdd2;
+}
+.footer-bottom .copyri {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.socials {
+  list-style: none;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+
+  color: #fff;
+
+  padding: 5px;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+
+  width: 20px;
+
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #341458;
+
+  width: 100%;
+
+  padding: 20px;
+
+  padding-bottom: 40px;
+
+  text-align: center;
+}
+
+.footer-bottom p {
+  float: left;
+
+  font-size: 14px;
+
+  word-spacing: 2px;
+}
+
+.footer-bottom p a {
+  color: #ccc;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding-right: 10px;
+
+  display: block;
+}
+
+.footer-menu ul li a {
+  color: #cfd2d6;
+
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+@media (max-width: 500px) {
+  .footer-bottom p {
+    float: none;
+  }
+
+  .footer-menu ul {
+    display: flex;
+
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+}
+
+@media (width<=490px) {
+  .hero .content h1 {
+    font-size: 17px;
+  }
+  .hero .content p {
+    font-size: 12px;
+  }
+  button {
+    padding: 12px 0;
+    font-size: 12px;
+  }
+  input,
+  select {
+    font-size: 12px;
+  }
+  select {
+    padding: 0;
   }
 }
