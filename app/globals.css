@@ -292,10 +292,10 @@ footer {
 
 @media (width<=490px) {
   .hero .content h1 {
-    font-size: 17px;
+    font-size: 20px;
   }
   .hero .content p {
-    font-size: 12px;
+    font-size: 13px;
   }
   button {
     padding: 12px 0;
