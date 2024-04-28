@@ -115,7 +115,6 @@ button {
   cursor: pointer;
 }
 
-
 .list12 {
   height: 500vh;
   color: red;
@@ -285,9 +284,7 @@ footer {
 
     text-align: center;
   }
-  .footer-bottom .copyri {
-    font-size: 12px;
-  }
+ 
 }
 
 @media (width<=490px) {
