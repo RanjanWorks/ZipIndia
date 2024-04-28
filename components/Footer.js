@@ -42,7 +42,7 @@ const Footer = () => {
           <p className="copyri">
             {" "}
             <CopyrightIcon /> <span id="year">2024</span>{" "}
-            <a href="#"> CodeWithRanjan</a>{" "}
+            <a href="#">Made with❤️by ranjan</a>{" "}
           </p>
 
           <div class="footer-menu">
