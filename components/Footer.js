@@ -40,14 +40,12 @@ const Footer = () => {
 
         <div class="footer-bottom">
           <p className="copyri">
-            {" "}
             <CopyrightIcon /> <span id="year">2024</span>{" "}
             <a href="#">Ranjan</a>{" "}
           </p>
 
-          <div class="footer-menu">
-            <p>Made with Next.js</p>
-          </div>
+          <p>Made with Next.js</p>
+
         </div>
       </footer>
     </>
