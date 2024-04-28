@@ -114,9 +114,7 @@ button {
 
   cursor: pointer;
 }
-button:hover {
-  background-color: white;
-}
+
 
 .list12 {
   height: 500vh;
