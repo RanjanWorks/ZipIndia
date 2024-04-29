@@ -1,54 +1,17 @@
 # ZipIndia
 
-ZipIndia is a Python library for retrieving location details from Indian postal codes (PIN codes). It provides a simple interface to fetch information such as state, district, and locality based on a given PIN code.
+ZipIndia is a Next.js website that provides information about India's ZIP codes. It offers a user-friendly interface to look up location details such as state, district, and locality based on a given ZIP code.
 
 ## Features
 
-- Retrieve location details (state, district, locality) based on Indian PIN codes.
-- Simple and easy-to-use API.
+- Browse location details (state, district, locality) based on Indian ZIP codes.
+- Intuitive and responsive web interface.
 - Data sourced from reputable government databases for accuracy.
 
-## Installation
+## Getting Started
 
-You can install ZipIndia via pip:
+To run ZipIndia locally, follow these steps:
 
-```bash
-pip install zipindia
-```
-
-## Usage
-
-Here's a quick example of how to use ZipIndia:
-
-```python
-from zipindia import ZipIndia
-
-# Initialize ZipIndia
-zip_india = ZipIndia()
-
-# Retrieve location details for a PIN code
-location = zip_india.get_location("110001")
-print(location)
-```
-
-Output:
-```
-{
-    'state': 'Delhi',
-    'district': 'Central Delhi',
-    'locality': 'Baroda House'
-}
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Data sourced from [India Post](https://www.indiapost.gov.in/)
-- Built with [Next.js](https://nextjs.org/)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vebpath/ZipIndia.git
