@@ -18,4 +18,4 @@ To run ZipIndia locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-git clone https://github.com/vebpath/ZipIndia.git
+   git clone https://github.com/vebpath/ZipIndia.git
