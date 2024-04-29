@@ -12,10 +12,3 @@ ZipIndia is a Next.js website that provides information about India's ZIP codes.
 - Intuitive and responsive web interface.
 - Data sourced from reputable government databases for accuracy.
 
-## Getting Started
-
-To run ZipIndia locally, follow these steps:
-
-1. Clone the repository:
-
-``` git clone https://github.com/vebpath/ZipIndia.git
